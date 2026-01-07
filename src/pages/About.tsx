@@ -55,7 +55,7 @@ const About = () => {
             />
             <div className="absolute bottom-0 inset-x-0 p-6 bg-gradient-to-t from-black/90 to-transparent">
               <h3 className="text-2xl font-bold text-white">Halil Aydın</h3>
-              <p className="text-purple-400">WEB Developer</p>
+              <p className="text-purple-400">Full Stack WEB Developer</p>
             </div>
           </div>
         </motion.div>
