@@ -42,7 +42,7 @@ const Home = () => {
       .catch(err => console.error(err));
   }, []);
 
-  const profileImageSrc = "/profile.jpg";
+  const profileImageSrc = "/profile.jpeg";
   const profileImageFallback = "https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/912e2426742b4519f7fddc396062a5fd~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=ff4a76bc&x-expires=1767272400&x-signature=MXmsu4B0hTWMkwzJMURqE6JgRt8%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=sg1";
 
   return (
@@ -61,7 +61,7 @@ const Home = () => {
               className="relative w-full max-w-lg aspect-square rounded-[3rem] overflow-hidden border-4 border-purple-500/50 shadow-2xl shadow-purple-500/50"
             >
               <img 
-                src="profile.jpeg"
+                src={profileImageSrc} 
                 onError={(e) => {e.currentTarget.src=profileImageFallback}}
                 className="w-full h-full object-cover"
                 alt="Halil"
@@ -85,7 +85,7 @@ const Home = () => {
             layoutId="profile-image-container"
             className="w-32 h-32 rounded-full p-1 bg-gradient-to-r from-purple-500 to-pink-500 overflow-hidden group-hover:shadow-[0_0_30px_rgba(168,85,247,0.6)] transition-shadow duration-500">
             <img 
-              src="profile.jpeg"
+              src={profileImageSrc} 
               onError={(e) => {e.currentTarget.src=profileImageFallback}}
               className="w-full h-full rounded-full object-cover border-4 border-black"
               alt="Halil"/>
