@@ -46,7 +46,7 @@ const About = () => {
           <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-blue-600 rounded-[2rem] blur-3xl opacity-30 group-hover:opacity-50 transition-opacity" />
           <div className="relative aspect-[4/5] rounded-[2rem] overflow-hidden border-2 border-white/10 bg-zinc-900">
             <img 
-              src="https://p16-sign-sg.tiktokcdn.com/tos-alisg-avt-0068/912e2426742b4519f7fddc396062a5fd~tplv-tiktokx-cropcenter:1080:1080.jpeg?dr=14579&refresh_token=f975d1dc&x-expires=1767265200&x-signature=gKZU0qUK4kHU2%2BTnz%2FhQZrlu19g%3D&t=4d5b0474&ps=13740610&shp=a5d48078&shcp=81f88b70&idc=sg1" 
+              src="profile.jpeg" 
               onError={(e) => {
                 e.currentTarget.src = "https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?q=80&w=1000&auto=format&fit=crop";
               }}

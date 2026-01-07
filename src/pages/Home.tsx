@@ -61,7 +61,7 @@ const Home = () => {
               className="relative w-full max-w-lg aspect-square rounded-[3rem] overflow-hidden border-4 border-purple-500/50 shadow-2xl shadow-purple-500/50"
             >
               <img 
-                src={profileImageSrc} 
+                src="profile.jpeg"
                 onError={(e) => {e.currentTarget.src=profileImageFallback}}
                 className="w-full h-full object-cover"
                 alt="Halil"
