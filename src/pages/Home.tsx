@@ -85,7 +85,7 @@ const Home = () => {
             layoutId="profile-image-container"
             className="w-32 h-32 rounded-full p-1 bg-gradient-to-r from-purple-500 to-pink-500 overflow-hidden group-hover:shadow-[0_0_30px_rgba(168,85,247,0.6)] transition-shadow duration-500">
             <img 
-              src={profileImageSrc} 
+              src="profile.jpeg"
               onError={(e) => {e.currentTarget.src=profileImageFallback}}
               className="w-full h-full rounded-full object-cover border-4 border-black"
               alt="Halil"/>
